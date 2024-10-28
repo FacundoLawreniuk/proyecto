@@ -1,38 +1,39 @@
-# Proyecto
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Página de Información</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        
-        <div class="menu container">
-            <a href="#" class="logo">Logo</a>
-            <input type="checkbox" id="menu" />
-            <label for="menu">
-                <img src="img menu" class="menu-icono">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">..</a> </li>
-                    <li><a href="#">Contactos</a> </li>
-                    <li><a href="#">Inicio</a> </li>
-                    <li><a href="#">Productos</a> </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-content container">
-            <h1>J&E</h1>
-            <P></P>
-        </div>
-  
+    <div class="sidebar">
+        <h2>Logo</h2>
+        <ul>
+            <li>
+                <a href="#catalogo">Catálogo</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </div>
 
+    <div class="main-container">
+        <header class="header">
+            <p>(Fondo relacionado)</p>
+        </header>
 
-    </header>
-    
+        <div class="content">
+            <section class="info">
+                <h2>Información</h2>
+                <p>Detalles de los productos</p>
+            </section>
+            <section class="info">
+                <h2>Información</h2>
+                <p>Detalles más especificos</p>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
